@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'font';
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: #fff;
+    height: 100vh;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
