@@ -11,4 +11,18 @@ module.exports = {
         static: path.join(__dirname, 'public'),
         port: 3000
     },
+    module: {
+        rules: [
+            {
+              test: /\.m?js$/,
+              exclude: /(node_modules)/,
+              use: {
+                loader: 'babel-loader',
+                options: {
+                  presets: ['@babel/preset-env']
+                }
+              }
+            }
+        ]
+    }
 }
