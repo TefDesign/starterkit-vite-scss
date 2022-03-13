@@ -1,7 +1,7 @@
 # Starter Kit SCSS - JS
 
 ## Description :
-Starter Kit using Webpack with SCSS and JS support.
+Starter Kit for SCSS and JS support and using Webpack.
 
 ## Installation :
 - `npm run build` : Build project
