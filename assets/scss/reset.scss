@@ -10,6 +10,11 @@ html {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
 /* Remove list styles (bullets/numbers) */
 ol, ul, menu {
     list-style: none;

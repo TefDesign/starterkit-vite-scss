@@ -1,9 +1,9 @@
 # Starter Kit SCSS - JS
 
 ## Description :
-Starter Kit for SCSS and JS support and using Webpack.
+Starter Kit using Vite with SCSS and JS support.
 
 ## Installation :
-- `npm run build` : Build project
-- `npm run watch` : Build project with watch
-- `npm run serve` : Build project with server
+- `npm run dev` : Start server and watch
+- `npm run build` : Build project for production
+- `npm run preview` : Preview project before production
