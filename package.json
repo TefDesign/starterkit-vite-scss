@@ -1,19 +1,22 @@
 {
+  "name": "@tefdesign/starterkit-vite-scss",
+  "version": "1.0.4",
+  "author": "Stéphane SAVONA",
+  "license": "MIT",
+  "description": "A starter Kit using Vite with SASS",
+  "keywords": ["vite","sass","scss","starter kit","starterkit","js"],
+  "bin": "./bin/cli.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
-    "watch": "./node_modules/.bin/webpack --watch",
-    "serve": "./node_modules/.bin/webpack serve --open"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
-    "@babel/preset-env": "^7.16.11",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.7.1",
     "sass": "^1.49.9",
-    "sass-loader": "^12.6.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "vite": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TefDesign/starterkit-vite-scss"
   }
 }
