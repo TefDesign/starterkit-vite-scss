@@ -1,6 +1,6 @@
 {
   "name": "@tefdesign/starterkit-vite-scss",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Stéphane SAVONA",
   "license": "MIT",
   "description": "A starter Kit using Vite with SASS",
