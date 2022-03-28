@@ -3,22 +3,25 @@
   "version": "1.0.7",
   "author": "Stéphane SAVONA",
   "license": "MIT",
-  "description": "A starter Kit using Vite with SASS",
+  "description": "A starter Kit using Vite with SASS and Cypress",
   "keywords": [
     "vite",
     "sass",
     "scss",
     "starter kit",
     "starterkit",
-    "js"
+    "js",
+    "cypress"
   ],
   "bin": "./bin/cli.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cypress": "./node_modules/.bin/cypress open"
   },
   "devDependencies": {
+    "cypress": "^9.5.2",
     "sass": "^1.49.9",
     "vite": "^2.8.6"
   },
